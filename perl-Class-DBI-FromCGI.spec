@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	DBI-FromCGI
-Summary:	Class::DBI::FromCGI - Update Class::DBI data using CGI::Untaint
-Summary(pl):	Class::DBI::FromCGI - uaktualnianie danych Class::DBI przy u¿yciu CGI::Untaint
+Summary:	Class::DBI::FromCGI - update Class::DBI data using CGI::Untaint
+Summary(pl):	Class::DBI::FromCGI - aktualizacja danych Class::DBI przy u¿yciu CGI::Untaint
 Name:		perl-Class-DBI-FromCGI
 Version:	0.94
 Release:	2
