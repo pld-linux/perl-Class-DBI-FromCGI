@@ -6,9 +6,9 @@
 %define	pdir	Class
 %define	pnam	DBI-FromCGI
 Summary:	Class::DBI::FromCGI - Update Class::DBI data using CGI::Untaint
-Name:		perl-DBI-FromCGI
+Name:		perl-Class-DBI-FromCGI
 Version:	0.94
-Release:	1
+Release:	2
 # Same as Perl itself
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
@@ -16,9 +16,10 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	126040b7e83218197786de2c6699100f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-Class-DBI >= 0.94
 BuildRequires:	perl-CGI-Untaint >= 0.8
+BuildRequires:	perl-Class-DBI >= 0.94
 BuildRequires:	perl-DBD-SQLite
+Requires:	perl-Class-DBI >= 0.94
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
