@@ -10,8 +10,8 @@ Summary(pl):	Class::DBI::FromCGI - aktualizacja danych Class::DBI przy u¿yciu CG
 Name:		perl-Class-DBI-FromCGI
 Version:	0.94
 Release:	2
-# Same as Perl itself
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	126040b7e83218197786de2c6699100f
