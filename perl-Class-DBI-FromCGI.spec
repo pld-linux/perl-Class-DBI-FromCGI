@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	DBI-FromCGI
+%define		pdir	Class
+%define		pnam	DBI-FromCGI
 Summary:	Class::DBI::FromCGI - update Class::DBI data using CGI::Untaint
 Summary(pl):	Class::DBI::FromCGI - aktualizacja danych Class::DBI przy u¿yciu CGI::Untaint
 Name:		perl-Class-DBI-FromCGI
