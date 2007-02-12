@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	DBI-FromCGI
 Summary:	Class::DBI::FromCGI - update Class::DBI data using CGI::Untaint
-Summary(pl):	Class::DBI::FromCGI - aktualizacja danych Class::DBI przy u¿yciu CGI::Untaint
+Summary(pl.UTF-8):   Class::DBI::FromCGI - aktualizacja danych Class::DBI przy uÅ¼yciu CGI::Untaint
 Name:		perl-Class-DBI-FromCGI
 Version:	0.94
 Release:	2
@@ -33,14 +33,14 @@ Checking and sensible input validation.  (Especially as we can still
 show a 'working' application without it!). So, we now have
 CGI::Untaint to take care of a lot of that for us.
 
-%description -l pl
-Jedn± z najbardziej irytuj±cych rzeczy przy pisaniu aplikacji WWW jest
-monotonia pisania ca³y czas w wiêkszo¶ci powtarzaj±cego siê kodu. A
-tam gdzie wystêpuje monotonia, jest tendencja pomijania tego o czym
-wiemy, ¿e jest bardzo wa¿ne, ale bolesne przy pisaniu - jak
-sprawdzanie ska¿enia i rozs±dna kontrola poprawno¶ci wej¶cia
-(zw³aszcza, ¿e nadal mo¿emy pokazaæ "dzia³aj±c±" aplikacje bez tego!).
-Teraz CGI::Untaint mo¿e o to w wiêkszo¶ci zadbaæ za nas.
+%description -l pl.UTF-8
+JednÄ… z najbardziej irytujÄ…cych rzeczy przy pisaniu aplikacji WWW jest
+monotonia pisania caÅ‚y czas w wiÄ™kszoÅ›ci powtarzajÄ…cego siÄ™ kodu. A
+tam gdzie wystÄ™puje monotonia, jest tendencja pomijania tego o czym
+wiemy, Å¼e jest bardzo waÅ¼ne, ale bolesne przy pisaniu - jak
+sprawdzanie skaÅ¼enia i rozsÄ…dna kontrola poprawnoÅ›ci wejÅ›cia
+(zwÅ‚aszcza, Å¼e nadal moÅ¼emy pokazaÄ‡ "dziaÅ‚ajÄ…cÄ…" aplikacje bez tego!).
+Teraz CGI::Untaint moÅ¼e o to w wiÄ™kszoÅ›ci zadbaÄ‡ za nas.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
