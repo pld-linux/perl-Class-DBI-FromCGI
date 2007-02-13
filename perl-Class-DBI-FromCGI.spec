@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	DBI-FromCGI
 Summary:	Class::DBI::FromCGI - update Class::DBI data using CGI::Untaint
-Summary(pl.UTF-8):   Class::DBI::FromCGI - aktualizacja danych Class::DBI przy użyciu CGI::Untaint
+Summary(pl.UTF-8):	Class::DBI::FromCGI - aktualizacja danych Class::DBI przy użyciu CGI::Untaint
 Name:		perl-Class-DBI-FromCGI
 Version:	0.94
 Release:	2
