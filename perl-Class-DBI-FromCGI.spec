@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Class-DBI-FromCGI/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b7ff8430745c3a72930310da5fc39ded
 URL:		http://search.cpan.org/dist/Class-DBI-FromCGI/
 BuildRequires:	perl-CGI-Untaint >= 0.8
