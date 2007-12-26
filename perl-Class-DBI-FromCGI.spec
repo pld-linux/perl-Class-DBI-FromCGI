@@ -8,13 +8,14 @@
 Summary:	Class::DBI::FromCGI - update Class::DBI data using CGI::Untaint
 Summary(pl.UTF-8):	Class::DBI::FromCGI - aktualizacja danych Class::DBI przy użyciu CGI::Untaint
 Name:		perl-Class-DBI-FromCGI
-Version:	0.94
-Release:	2
+Version:	1.00
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	126040b7e83218197786de2c6699100f
+Source0:	http://www.cpan.org/modules/by-module/Class-DBI-FromCGI/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	b7ff8430745c3a72930310da5fc39ded
+URL:		http://search.cpan.org/dist/Class-DBI-FromCGI/
 BuildRequires:	perl-CGI-Untaint >= 0.8
 BuildRequires:	perl-Class-DBI >= 0.94
 BuildRequires:	perl-DBD-SQLite
